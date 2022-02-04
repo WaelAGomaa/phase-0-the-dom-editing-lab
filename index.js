@@ -1,0 +1,17 @@
+element.classList.remove("dog");
+element.classList.add("cat", "sale");
+const element = document.getElementById("main");
+element.style.height = "300px";
+element.style.backgroundColor = "#27647B";
+element.textContent = "You've changed what's on the screen!";
+element.style.fontSize = "24px";
+element.style.marginLeft = "30px";
+element.style.lineHeight = 2;
+element.className = "pet-listing dog";
+element.classList.remove("dog");
+element.classList.add("cat", "sale");
+someElement.removeChild(someChildElement);
+const ul = document.getElementsByTagName("ul")[0];
+const secondChild = ul.querySelector("li:nth-child(2)");
+ul.removeChild(secondChild);
+ul.remove();
